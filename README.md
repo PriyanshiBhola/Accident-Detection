@@ -71,5 +71,4 @@ pip3 install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.3/im
 * [ImageAI](http://imageai.org/) - For Video Object Detection part
 * [OpenCV](https://opencv.org) - For playing with video frames
 
-## Authors
-* [Tanish Bhola](https://github.com/TanishB)
+
