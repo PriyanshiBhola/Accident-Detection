@@ -1,7 +1,5 @@
 # ACCIST
 
-![](Assets/Accist.gif)
-
 This project aims to automatically detect car accidents from a live Camera feed.<br> 
 As per the report **95%** of the deaths in car accidents occur due to the lag in early reporting & providing medical help. We are utilising the power of Artificial intelligence & Computer vision to automatically detect Road Accidents and provide the necessary medical emergency at the earliest.
 ***A STEP TOWARDS ROAD SAFETY AND SMART CITY***  <br>
@@ -12,19 +10,19 @@ As per the report **95%** of the deaths in car accidents occur due to the lag in
 
 For the testing purpose I'm using a video of a car accident that you can see below.
 
-![](Assets/vid.gif)
+
 
 * **02. Video Object Detection**
 
 As a second step I've done video object detection for custom objects(Cars) whose results can be seen below.
 
-![](Assets/ObjectDetectedVideo.gif)
+
 
 * **03. Accident Detection**
 
 For the final step I've used the above Object detected video. I extracted the detected car and passed that to my trained Accident detection model, if it detects accident then an alert of **ACCIDENT !** is displayed on the screen. This whole process has been done on each and every frame of the video by traversing it with the help of [OpenCV](https://opencv.org) library.
 
-![](Assets/output.gif)
+
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
